@@ -1,5 +1,12 @@
 spring:
   application:
     name: journalApp
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: journaldb
+#      username:
+#      password:
 server:
   port: 8080
